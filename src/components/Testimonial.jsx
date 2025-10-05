@@ -26,7 +26,9 @@ const Testimonial = () => {
            </div>
         </div>
          <div  className="flex items-center gap-1 mt-4">
-                           <StarRating rating = {items.rating}/>
+                           <StarRating
+                            rating = {items.rating}
+                            />
                         </div>
         <p className= "text-gray-500 mt-4 max-w-90">{items.review}</p>
      </div>    
